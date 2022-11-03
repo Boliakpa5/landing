@@ -1,0 +1,55 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+  text-align: left;
+  text-shadow: 0 0 10px black;
+}
+
+.banner p {
+  color:white;
+  text-align: left;
+  text-shadow: 0 0 10px black;
+  margin-bottom: 40px;
+}
+
+.banner img{
+  height:300px
+  }
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.banner a {
+  background: rgb(218,157,34);
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 16px 36px;
+  border-radius: 50px;
+  border: 3px solid transparent;
+}
+
+.banner a:hover {
+  background: transparent;
+  color: rgb(218,157,34);
+  border: 3px solid rgb(218,157,34);
+}

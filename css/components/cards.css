@@ -1,0 +1,48 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 10px 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card img {
+  width: 180px;
+  height: 100px;
+  background-color: transparent;
+}
+
+#bouvier {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
